@@ -1,0 +1,256 @@
+[ ] BUG: Field does not update on last play until Game Over message is dismissed.
+	[ ] print Game Over on the field
+[ ] BUG: accept penalty on play that scores touchdown, options in kickoff mode
+
+[-] penalties
+	[-] process
+		[x] special dialog class for displaying penalty info
+		[x] Format the title from the penalty(s) and display
+		[-] Format the questions and display
+			[ ] need to add info to the question for things like first down, touchdown, safety
+			[ ] special text for penalties on plays other than rush and pass plays not intercepted
+		[x] catch click for player answer
+		[x] return spot for next line of scrimmage
+		[x] for accepted penalties, add drive
+		[ ] for declined penalties, do not add drive
+		[x] update stats
+		[ ] penalties on returns are applied from the end of the return, or midfield if the return is a touchdown.
+
+[-] fumble
+    [x] recovered
+    [x] lost
+    [ ] advance ball after fumble
+    [ ] in endzone
+
+[ ] Expand play-by-play text to reflect the play selection and results (B, QT, etc... as extra info)
+
+[ ] Something on field to feedback
+    [ ] touchdown
+    [ ] safety
+    [x] fumble (red dot for fumble lost, green dot for fumble recovered)
+    [x] int (orange dot)
+    [x] firstdown (arrow at end of drive line)
+    [ ] down and distance
+    [ ] etc...
+    
+[ ] KO,			// Booming Punt
+
+[-] end of quarter, half, game
+	[ ] on game end
+		[ ] disable or hide all the option buttons
+		[ ] button to open window to review stats
+	[ ] on half end
+		[ ] kickoff
+[-] exception handling in getresult(offense/defense)
+	[x] create a message dialog
+	[-] display message describing the error
+    [ ] BUG: Exception caught in GetResult. need more info to track problem.
+[-] Punt
+    [x] short of endzone
+    [x] into endzone
+    [x] no return
+    [ ] fumbles
+    [ ] penalties
+	[-] blocked
+		[-] recovered
+		[-] lost
+		[ ] advance ball after fumble
+		[ ] in endzone
+[-] Returns
+    [-] Kickoff return
+        [x] return
+        [x] touchback
+	    [x] touchdowns
+	    [ ] fumbles
+	    [ ] penalties
+    [-] Punt return
+        [-] return
+            [ ] ask to return, fair catch, or let go
+            [ ] if let go, some number for roll.  Could roll into endzone
+        [-] touchback
+	    [x] touchdowns
+	    [ ] fumbles
+	    [ ] penalties
+    [-] Interception return
+        [-] return
+        [-] touchback
+	    [x] touchdowns
+	    [ ] fumbles
+	    [ ] penalties
+[ ] Fieldgoal
+    [ ] made
+    [ ] missed
+    [ ] blocked
+    	[ ] return
+    [ ] fumbles
+    [ ] penalties
+[ ] Extra point
+    [ ] made
+    [ ] missed
+    [ ] blocked
+    	[ ] return
+    [ ] fumbles
+    [ ] penalties
+
+[-] logging debug and record
+    [x] write JResult to log
+    [x] write JGameData to log
+    [x] write dice roll to log
+    [ ] write dialog response to log
+    [ ] read log and stage play
+    [ ] run play from log
+
+[ ] Stats
+    [ ] time of possession
+    [ ] wins, losses, games played (which should be the sum of wins + losses)
+    [ ] add method to for accumulative stats
+    [ ] write to file
+	[ ] app to review accumulated stats
+
+[ ] two point conversion
+[ ] overtime
+
+[-] enhancements
+	[ ] replace scoreboard with scorebug
+	    [ ] window floating on top of field
+	    [ ] optional layout, user selection
+	[ ] replace options panels with radial menu
+	[ ] put drives on separate, transparent window so we don't have to redraw the field every time
+	[ ] remember layout
+	[x] remember frame size and position
+	[ ] make play by play scrollable
+
+[ ] testing
+	[ ] for every possible result, test...
+		[ ] gain, no gain, loss
+		[ ] first down
+		[ ] turn over on downs
+		[ ] touchdown
+		[ ] safety
+		[ ] fumble lost
+		[ ] fumble recovered
+		[ ] out of bounds
+		[ ] pass only
+			[ ] incompletion
+			[ ] interception
+		[ ] def penalty
+		[ ] off penalty
+		[ ] pi
+		[ ] breakaway
+		[ ] SOP
+		[ ] BLP
+		[ ] QR
+		[ ] QT
+-----------------------------------------------------------------------------------------------------
+12/12/16----------------------------------------------------------------------------------------------
+[x] S,			//
+[x] R,
+12/05/16----------------------------------------------------------------------------------------------
+[x] BUG: PI not registered as penalty
+11/29/16----------------------------------------------------------------------------------------------
+[x] BUG: Breakaway on screen pass logged as run
+11/28/16----------------------------------------------------------------------------------------------
+    [x] Get result
+        [x] from result stack,
+        [x] from team data
+[x] debug,
+    [x] set play option
+	[x] BUG: Safety not recorded
+11/26/16----------------------------------------------------------------------------------------------
+	[x] BUG: option dialog should be modal.  Am able to select and run plays with the dialog showing.
+    [x] merge offense and defense results
+
+	[x] BUG: touchdown. (fixed)
+		[x] score not recorded
+		[x] does not move to kickoff mode
+	[x] BUG: not sure getting correct results. (fixed)
+
+	[x] team results from team data
+	[x] select team by clicking team name on scoreboard
+	[x] game play
+    [x] merge offense and defense results
+11/25/16----------------------------------------------------------------------------------------------
+[x] select play, run play
+[x] Change stats pane to BoxScore
+[x] Team selection
+	[x] left click team on scoreboard to display a tree control of teams
+	[x] show tree control under team on scoreboard
+	[x] click on team to select.
+	[x] close tree control after select
+	[x] update team in game
+		[x] scoreboard
+		[x] field
+		[x] stats
+11/22/16----------------------------------------------------------------------------------------------
+    [x] Kickoff
+        [x] show the kickoff options
+        [x] short of endzone
+        [x] into endzone
+        [x] through endzone
+        [x] on sides
+        [x] squib
+11/16/16----------------------------------------------------------------------------------------------
+    [-] Pass
+        [x] gain, no gain, loss
+        [x] first down
+        [x] turn over on downs
+        [x] touchdown
+        [x] safety
+        [x] fumble lost
+        [x] fumble recovered
+        [x] out of bounds
+        [x] incompletion
+        [x] interception
+[x] click on team name to see team chart display
+[x] read complete team data
+    [x] Breakaway
+    [x] SOP
+    [x] BLP
+    [x] QR
+    [x] QT
+	[x] DS_GAIN,	// Variable Yards Gained Direct Sum
+	[x] DS_LOSS,	// Variable Yards Lost Direct Sum
+	[x] X_GAIN,		// Variable Yards Gained
+	[x] X_LOSS,		// Variable Yards Lost
+	[x] T1,			// Variable Yards Gained T1
+	[x] T2,			// Variable Yards Gained T2
+	[x] T3,			// Variable Yards Gained T3
+11/11/16----------------------------------------------------------------------------------------------
+[x] Rush
+    [x] gain, no gain, loss
+    [x] first down
+    [x] turn over on downs
+    [x] touchdown
+    [x] safety
+    [x] fumble lost
+    [x] fumble recovered
+    [x] out of bounds
+11/9/16----------------------------------------------------------------------------------------------
+[x] dice stack: contains dice rolls for stuff like fumble
+[x] if question is to be asked, how to wait for user input. <Create a modal dialog>
+11/8/16----------------------------------------------------------------------------------------------
+[x] play by play
+    [x] show results
+11/7/16----------------------------------------------------------------------------------------------
+11/6/16----------------------------------------------------------------------------------------------
+11/5/16----------------------------------------------------------------------------------------------
+[x] stats panel using TableView
+11/4/16----------------------------------------------------------------------------------------------
+[x] custom events
+    [x] creating a custom event
+    [x] listening for a custom event
+    [x] try this in the custom string class
+[x] play by play
+    [x] create a custom string class (JString) which allows for multi colored, multi font (IE: segment that is bold), whatever string
+        [x] string class used to build and display the string.
+            - Defined JString as a subclass of the TextFlow layout, which can be added to the JPanel which the
+                PlayByPlay field is a subclass of.  To show a message, remove the existing JString/TextFlow object
+                from the PlayByPlay/JPanel and add the new one.
+            - When I first did this, the App locked up.  After fiddling with the code, it started working.  Don't know
+                what I did for it to start working.  A little concerned that I have a flaw lurking out there.
+        [x] clickable string segment by which the user can answer questions
+[x] Not sure how to organize the flow when question is in the play by play panel. Try a modal dialog
+    [x] create a modal dialog for asking questions
+        [x] class for the dialog
+        [x] look and feel
+        [x] close on selection
