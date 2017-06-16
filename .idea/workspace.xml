@@ -2,136 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6356940c-e6ab-47d2-b7e0-d1775cec312e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/.vscode/launch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/JGame.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/bbpriority.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/bbrules2007-a.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/bk.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JBoxScorePanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JBoxScoreTableView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JBoxScoreTableView$Stuff.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JBoxScoreTableView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JBoxScoreTreeTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDebug.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage$JDialogStageJString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDialogStage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JDrive.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JGame$Plays.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JGameData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JMessage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptions$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptions$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptions$Mode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptionsButton$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptionsButton$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JOptionsButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPanel$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPanel$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPanel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JDialog$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyDialogJString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog$JPenaltyQuestionButton.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPenaltyDialog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayByPlay.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayCaller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JPlayerOptionEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JResult$ActionModifiers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JResult$OtherModifiers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JResult$Who.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JResult$YardageModifiers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JScoreboard$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JScoreboard$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JScoreboard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JSpot$Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JSpot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JStats.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JString$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JString$JText$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JString$JText$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JString$JText.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JString.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamCard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree$JTeamTreeGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree$JTeamTreeGroupNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree$JTeamTreeTeam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/JTeamTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/LOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/out/production/JGame/TODO.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/pg.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JBoxScorePanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JBoxScoreTableView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JBoxScoreTreeTable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JDebug.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JDialogStage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JDice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JDrive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JField.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JGameData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JOptions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JOptionsButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JPenaltyDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JPlayByPlay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JPlayCaller.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JPlayerOptionEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JScoreboard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JSpot.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JStats.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JTeam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JTeamCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/JTeamTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/LOG.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JGame/src/TODO.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Air_Force.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Akron.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Alabama.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Arizona.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Arizona_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Arkansas.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Arkansas_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Army.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Auburn.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/BYU.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Ball_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Baylor.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Boise_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Boston_College.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Bowling_Green.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Buffalo.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/California.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Central_Florida.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Central_Michigan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Cincinnati.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Clemson.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/CollegeFootballFieldDimensions.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/CollegeFootballFieldDimensionsTopView.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/CollegeFootballFieldDimensionsTopView2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Colorado.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Colorado_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Connecticut.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Duke.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/East_Carolina.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Eastern_Michigan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Florida.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Florida_Atlantic.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Florida_International.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Florida_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Fresno_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Georgia.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Georgia_Tech.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Hawaii.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Houston.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Idaho.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Illinois.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Indiana.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Iowa.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Iowa_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Kansas.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Kansas_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Kent_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Kentucky2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/LSU.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Louisiana-Lafayette.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Louisiana-Monroe.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Louisiana_Tech.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Louisville.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Marshall.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Maryland.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Memphis.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Miami_FL.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Miami_OH.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Michigan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Michigan_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Middle_Tennessee_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Minnesota.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Mississippi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Mississippi_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Missouri.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Navy.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Nebraska.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Nevada.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/New_Mexico.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/New_Mexico_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/North_Carolina.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/North_Carolina_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/North_Texas.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Northern_Illinois.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Northwestern.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Notre_Dame.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Ohio.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Ohio_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Oklahoma.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Oklahoma_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Oregon.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Oregon_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Penn_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Pittsburgh.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Purdue.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Rice.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Rutgers.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/San_Diego_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/San_Jose_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/South_Carolina.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/South_Florida.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Southern_California.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Southern_Methodist.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Southern_Mississippi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Stanford.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Syracuse.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Temple.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Tennessee.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Texas.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Texas_AM.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Texas_Christian.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Texas_Tech.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Toledo.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Troy.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Tulane.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/UAB.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/UCLA.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/UNLV.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/UTEP.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Utah.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Utah_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Vanderbilt.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Virginia.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Virginia_Tech.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Wake_Forest.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Washington.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Washington_St.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/West_Virginia.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Western_Kentucky.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Western_Michigan.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Wisconsin.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Helmets/Wyoming.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/xMain.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,23 +136,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JFootball" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding>
-                <element signature="e#1431#1432#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
@@ -206,9 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,23 +202,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JFootball" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JFootball" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -472,38 +445,46 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23150106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -522,10 +503,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,14 +519,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
