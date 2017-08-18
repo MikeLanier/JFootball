@@ -1,5 +1,5 @@
 import javafx.event.EventHandler;
-import javafx.geometry.Bounds;
+//import javafx.geometry.Bounds;
 import javafx.geometry.Insets;
 import javafx.geometry.Point2D;
 import javafx.geometry.Pos;
@@ -121,8 +121,8 @@ public class JScoreboard extends JPanel
 
 		setBackground(new Background(new BackgroundFill(JGame.LIGHTGREEN, new CornerRadii(5), null)));
 
-		double width;
-		double height;
+//		double width;
+//		double height;
 
 		// define the grid for the scoreboard labels
 		// set the padding around the cells of the grid

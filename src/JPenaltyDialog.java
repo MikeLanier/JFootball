@@ -1,6 +1,6 @@
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
-import javafx.scene.Parent;
+//import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
@@ -24,10 +24,10 @@ public class JPenaltyDialog extends Stage
 	private Integer _numQuestions = 0;
 	private Font font = new Font(16);
 
-	private class JPenaltyButton extends Button
-	{
-		public JSpot	spot;
-	}
+//	private class JPenaltyButton extends Button
+//	{
+//		public JSpot	spot;
+//	}
 
 	// the question button contains the question string and the
 	// spot at which to place the ball if accepted
@@ -221,7 +221,8 @@ public class JPenaltyDialog extends Stage
 		private Label _title = new Label("");
 		private VBox _questions = new VBox();
 		private int _numQuestions = 0;
-		private Integer _selectedQuestion = -1;
+		@SuppressWarnings("unused")
+		private int _selectedQuestion = -1;
 
 		public JDialog()
 		{
@@ -248,7 +249,7 @@ public class JPenaltyDialog extends Stage
 				public void handle(MouseEvent event)
 				{
 					Button b = (Button) event.getSource();
-					Parent p = b.getParent();
+//					Parent p = b.getParent();
 					System.out.println(b.getText());
 					_selectedQuestion = (Integer) b.getUserData();
 				}

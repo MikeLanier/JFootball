@@ -6,7 +6,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.TextAlignment;
 
-import java.awt.*;
+//import java.awt.*;
 
 import static com.sun.javafx.tk.Toolkit.getToolkit;
 
@@ -67,15 +67,15 @@ public class JField extends Canvas
 		return (double)((int)d);
 	}
 
-	private double computeScale()
-	{
-		double sw = m_canvasWidth / m_dTotalWidth;
-		double sh = m_canvasHeight / m_dTotalHeight;
-		double s = sw < sh ? sw : sh;
-		s = trunk(s);
-
-		return s;
-	}
+//	private double computeScale()
+//	{
+//		double sw = m_canvasWidth / m_dTotalWidth;
+//		double sh = m_canvasHeight / m_dTotalHeight;
+//		double s = sw < sh ? sw : sh;
+//		s = trunk(s);
+//
+//		return s;
+//	}
 
 	private Rectangle centerRectangle(double width, double height)
 	{

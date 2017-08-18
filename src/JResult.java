@@ -1,4 +1,4 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
+//import com.sun.org.apache.xpath.internal.operations.Bool;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -76,7 +76,7 @@ public class JResult
 	private YardageModifiers _yardageModifier;
 	private ActionModifiers _actionModifier;
 	private ArrayList<OtherModifiers> _otherModifiers = new ArrayList<>();
-	static String _source = "";
+	private String _source = "";
 	private Who _who = Who.undefined;
 
 	private int _yards;
@@ -323,7 +323,7 @@ public class JResult
 		{
 			str = str.toUpperCase();
 
-			int i = -1;
+			i = -1;
 			if((i = str.indexOf("(")) >= 0)
 			{
 				str = str.replace("(", "");
@@ -523,6 +523,7 @@ public class JResult
 
 			else if(!Validate(str))
 			{
+				@SuppressWarnings("unused")
 				String s = "Uninterpreted value \"";
 				s += str;
 				s += "\" found in results data.";
@@ -530,7 +531,7 @@ public class JResult
 
 			else
 			{
-				Number n;
+//				Number n;
 				try
 				{
 					if(str.length() > 0)
@@ -1075,6 +1076,8 @@ public class JResult
 
 	static int	width = 64;
 	static int	height = 32;
+	@SuppressWarnings("unused")
+	private int i;
 	public void draw(GraphicsContext gc, double x, double y)
 	{
 		draw(gc, x, y, 1.0, false);

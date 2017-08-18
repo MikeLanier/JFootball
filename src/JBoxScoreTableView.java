@@ -1,5 +1,5 @@
 import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleIntegerProperty;
+//import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
@@ -13,6 +13,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 
+@SuppressWarnings("rawtypes")
 public class JBoxScoreTableView extends TableView
 {
 	public class Stuff
@@ -46,6 +47,7 @@ public class JBoxScoreTableView extends TableView
 	private TableColumn<Stuff, String> col3 = new TableColumn<>("HOME");
 	private TableColumn<Stuff, String> col4 = new TableColumn<>("VIS");
 
+	@SuppressWarnings("unchecked")
 	public JBoxScoreTableView()
 	{
 		ObservableList<Stuff> data = FXCollections.observableArrayList

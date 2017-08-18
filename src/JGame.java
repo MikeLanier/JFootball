@@ -155,7 +155,7 @@ public class JGame extends GridPane
 		//add(boxScore, 1, 0, 1, 3);
 
 		JDebug debug = new JDebug(this);
-		options.debugText.textProperty().addListener((observable, oldValue, newValue) ->
+		JOptions.debugText.textProperty().addListener((observable, oldValue, newValue) ->
 		{
 			if(newValue.contains("."))
 			{

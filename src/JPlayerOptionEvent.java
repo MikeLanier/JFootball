@@ -4,12 +4,16 @@ import javafx.event.EventType;
 
 public class JPlayerOptionEvent extends Event
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	//final JPlayerOptionEvents
-	public static final EventType<JPlayerOptionEvent> OPTION_1 = new EventType(ANY, "OPTION_1");
-	public static final EventType<JPlayerOptionEvent> OPTION_2 = new EventType(ANY, "OPTION_2");
-	public static final EventType<JPlayerOptionEvent> OPTION_3 = new EventType(ANY, "OPTION_3");
-	public static final EventType<JPlayerOptionEvent> OPTION_4 = new EventType(ANY, "OPTION_4");
-	public static final EventType<JPlayerOptionEvent> OPTION_5 = new EventType(ANY, "OPTION_5");
+	public static final EventType<JPlayerOptionEvent> OPTION_1 = new EventType<JPlayerOptionEvent>(ANY, "OPTION_1");
+	public static final EventType<JPlayerOptionEvent> OPTION_2 = new EventType<JPlayerOptionEvent>(ANY, "OPTION_2");
+	public static final EventType<JPlayerOptionEvent> OPTION_3 = new EventType<JPlayerOptionEvent>(ANY, "OPTION_3");
+	public static final EventType<JPlayerOptionEvent> OPTION_4 = new EventType<JPlayerOptionEvent>(ANY, "OPTION_4");
+	public static final EventType<JPlayerOptionEvent> OPTION_5 = new EventType<JPlayerOptionEvent>(ANY, "OPTION_5");
 
 	public JPlayerOptionEvent()
 	{

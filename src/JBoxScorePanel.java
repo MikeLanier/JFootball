@@ -4,7 +4,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
-import javafx.scene.text.TextAlignment;
+//import javafx.scene.text.TextAlignment;
 
 // 0, "", ""
 // 1, "Score", ""

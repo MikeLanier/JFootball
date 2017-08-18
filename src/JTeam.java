@@ -65,6 +65,7 @@ public class JTeam
 		}
 	}
 
+	@SuppressWarnings("unused")
 	private Boolean	_loaded = false;
 	public void load() throws IOException
 	{
@@ -138,6 +139,8 @@ public class JTeam
 				}
 				_loaded = true;
 			}
+			
+			br.close();
 		}
 		/*
 		public void Load()

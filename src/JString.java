@@ -1,6 +1,6 @@
-import javafx.event.Event;
+//import javafx.event.Event;
 import javafx.event.EventHandler;
-import javafx.event.EventTarget;
+//import javafx.event.EventTarget;
 import javafx.event.EventType;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
@@ -8,7 +8,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 
-import javax.management.Notification;
+//import javax.management.Notification;
 
 public class JString extends TextFlow
 {
@@ -63,6 +63,7 @@ public class JString extends TextFlow
 	}
 
 	Font font = new Font(16);
+	@SuppressWarnings("unused")
 	private Color _color;
 
 	public JString()

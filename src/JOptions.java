@@ -92,7 +92,7 @@ public class JOptions extends JPanel
 		if(_selectedKickoff != null) _selectedKickoff.Select();
 	}
 
-	static TextField debugText = new TextField();
+	public static TextField debugText = new TextField();
 
 	static JOptionsButton[][] buttonsNormal =
 	{

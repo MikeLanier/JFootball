@@ -1,10 +1,10 @@
-import com.sun.javafx.geom.BaseBounds;
-import com.sun.javafx.geom.transform.BaseTransform;
-import com.sun.javafx.jmx.MXNodeAlgorithm;
-import com.sun.javafx.jmx.MXNodeAlgorithmContext;
-import com.sun.javafx.sg.prism.NGNode;
+//import com.sun.javafx.geom.BaseBounds;
+//import com.sun.javafx.geom.transform.BaseTransform;
+//import com.sun.javafx.jmx.MXNodeAlgorithm;
+//import com.sun.javafx.jmx.MXNodeAlgorithmContext;
+//import com.sun.javafx.sg.prism.NGNode;
 import javafx.event.EventHandler;
-import javafx.scene.Node;
+//import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.TreeCell;
 import javafx.scene.control.TreeItem;
@@ -13,7 +13,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
-import javafx.scene.text.Font;
+//import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.io.BufferedReader;
@@ -31,8 +31,10 @@ public class JTeamTree extends Stage
 	private class JTeamTreeGroup extends JTeamTreeGroupNode
 	{
 		String m_name;
+		@SuppressWarnings("unused")
 		String m_image;
 
+		@SuppressWarnings("unused")
 		ArrayList<JTeamTreeGroupNode> m_nodes;
 
 		public JTeamTreeGroup(String name, String image)
@@ -42,32 +44,32 @@ public class JTeamTree extends Stage
 			m_nodes = new ArrayList<JTeamTreeGroupNode>();
 		}
 
-		public void add(JTeamTreeGroupNode node)
-		{
-			m_nodes.add(node);
-		}
+//		public void add(JTeamTreeGroupNode node)
+//		{
+//			m_nodes.add(node);
+//		}
 
-		public void dump(int index)
-		{
-			int n = m_nodes.size();
-			for(int i=0; i<n; i++)
-			{
-				for(int j=0; j<=index; j++)
-					System.out.print("    ");
-
-				if(m_nodes.get(i).getClass().toString().equals("class JTeamTreeTeam"))
-				{
-					JTeamTreeTeam team = (JTeamTreeTeam)m_nodes.get(i);
-					System.out.println(team.m_name);
-				}
-				else if(m_nodes.get(i).getClass().toString().equals("class JTeamTreeGroup"))
-				{
-					JTeamTreeGroup teams = (JTeamTreeGroup)m_nodes.get(i);
-					System.out.println(teams.m_name);
-					teams.dump(index+1);
-				}
-			}
-		}
+//		public void dump(int index)
+//		{
+//			int n = m_nodes.size();
+//			for(int i=0; i<n; i++)
+//			{
+//				for(int j=0; j<=index; j++)
+//					System.out.print("    ");
+//
+//				if(m_nodes.get(i).getClass().toString().equals("class JTeamTreeTeam"))
+//				{
+//					JTeamTreeTeam team = (JTeamTreeTeam)m_nodes.get(i);
+//					System.out.println(team.m_name);
+//				}
+//				else if(m_nodes.get(i).getClass().toString().equals("class JTeamTreeGroup"))
+//				{
+//					JTeamTreeGroup teams = (JTeamTreeGroup)m_nodes.get(i);
+//					System.out.println(teams.m_name);
+//					teams.dump(index+1);
+//				}
+//			}
+//		}
 	}
 
 	private class JTeamTreeTeam extends JTeamTreeGroupNode
@@ -88,7 +90,7 @@ public class JTeamTree extends Stage
 
 	private StackPane tree = new StackPane();
 	private Scene _scene = new Scene(tree);
-	private Font font = new Font(16);
+//	private Font font = new Font(16);
 
 	public JTeamTree()
 	{
@@ -243,7 +245,7 @@ public class JTeamTree extends Stage
 							{
 								StringTokenizer items = new StringTokenizer(line, ",");
 
-								JTeamTreeTeam team = null;
+//								JTeamTreeTeam team = null;
 
 								int nItems = items.countTokens();
 								if(nItems < 3)

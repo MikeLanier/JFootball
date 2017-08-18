@@ -236,7 +236,7 @@ public class JDebug
 				default:
 					JResult result = new JResult();
 					result.Interpret(tokens[0]);
-					result.Play(JGame.options.selectedPlayOffense());
+					result.Play(JOptions.selectedPlayOffense());
 					JGame.resultStackDebug.add(result);
 
 					//JDrive drive = new JDrive( JGame.data.yardline, result, JGame.data.offense );

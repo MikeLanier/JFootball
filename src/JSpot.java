@@ -1,6 +1,6 @@
 import javafx.scene.paint.Color;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 
 /*
 	Spot will process the result and decide what to do next.
