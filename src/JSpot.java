@@ -136,7 +136,7 @@ public class JSpot
 		else if( result.B())
 		{
 			String s = dataAfter.teams[dataAfter.offense].name + " breaks into the open and ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 			
 			JGame.offensivePlay = JGame.Plays.Breakaway;
 			_action = Action.ballLive;
@@ -145,7 +145,7 @@ public class JSpot
 		else if( result.BLP())
 		{
 			String s = dataAfter.teams[dataAfter.offense].name + "'s quarterback rolls out and ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			JGame.offensivePlay = JGame.Plays.Bootleg;
 			_action = Action.ballLive;
@@ -154,7 +154,7 @@ public class JSpot
 		else if( result.SOP())
 		{
 			String s = dataAfter.teams[dataAfter.offense].name + "'s quarterback sprints out and ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			JGame.offensivePlay = JGame.Plays.SprintOut;
 			_action = Action.ballLive;
@@ -163,7 +163,7 @@ public class JSpot
 		else if( result.QT())
 		{
 			String s = dataAfter.teams[dataAfter.offense].name + "'s quarterback is trapped and ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			JGame.offensivePlay = JGame.Plays.QuarterbackTrapped;
 			_action = Action.ballLive;
@@ -172,7 +172,7 @@ public class JSpot
 		else if( result.QR())
 		{
 			String s = dataAfter.teams[dataAfter.offense].name + "'s quarterback pulls it down and ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			JGame.offensivePlay = JGame.Plays.QuarterbackRun;
 			_action = Action.ballLive;
@@ -263,22 +263,22 @@ public class JSpot
 		else
 			s = "runs the ball for ";
 
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		if(yards > 0)
 		{
 			s = "a gain of " + yards + " yards.";
-			JPlayByPlay.text.addSegment(s, Color.GREEN, false, null);
+			Output.text.addSegment(s, Color.GREEN, false, null);
 		}
 		else if(yards < 0)
 		{
 			s = "a loss of " + yards + " yards.";
-			JPlayByPlay.text.addSegment(s, Color.RED, false, null);
+			Output.text.addSegment(s, Color.RED, false, null);
 		}
 		else
 		{
 			s = "no gain.";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 		}
 
 		// create a drive for the result
@@ -294,7 +294,7 @@ public class JSpot
 		if(Touchdown())
 		{
 			s = s + ". Touchdown";
-			JPlayByPlay.text.addSegment(s, Color.BLUE, false, null);
+			Output.text.addSegment(s, Color.BLUE, false, null);
 			dataAfter.stats[dataAfter.offense].RushTouchdowns();
 		}
 
@@ -324,31 +324,31 @@ public class JSpot
 
 		// build the play by play string
 		String s = dataAfter.teams[dataAfter.offense].name + " passes the ball ";
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		if(result.INC())
 		{
 			s = "incomplete.";
-			JPlayByPlay.text.addSegment(s, Color.GREEN, false, null);
+			Output.text.addSegment(s, Color.GREEN, false, null);
 			dataAfter.stats[dataAfter.offense].PassIncomplete();
 			dataAfter.stats[dataAfter.offense].TotalPlays();
 		}
 		else if(yards > 0)
 		{
 			s = "for a gain of " + yards + " yards.";
-			JPlayByPlay.text.addSegment(s, Color.GREEN, false, null);
+			Output.text.addSegment(s, Color.GREEN, false, null);
 			dataAfter.stats[dataAfter.offense].Pass(yards);
 		}
 		else if(yards < 0)
 		{
 			s = "for a loss of " + yards + " yards.";
-			JPlayByPlay.text.addSegment(s, Color.RED, false, null);
+			Output.text.addSegment(s, Color.RED, false, null);
 			dataAfter.stats[dataAfter.offense].Pass(yards);
 		}
 		else
 		{
 			s = "for no gain.";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 			dataAfter.stats[dataAfter.offense].Pass(yards);
 		}
 
@@ -362,7 +362,7 @@ public class JSpot
 		if(Touchdown())
 		{
 			s = s + ". Touchdown";
-			JPlayByPlay.text.addSegment(s, Color.BLUE, false, null);
+			Output.text.addSegment(s, Color.BLUE, false, null);
 			dataAfter.stats[dataAfter.offense].PassTouchdowns();
 		}
 
@@ -398,10 +398,10 @@ public class JSpot
 
 		// build the play by play string
 		String s = dataAfter.teams[dataAfter.offense].name + " passes the ball ";
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		s = "and is intercepted ";
-		JPlayByPlay.text.addSegment(s, Color.RED, false, null);
+		Output.text.addSegment(s, Color.RED, false, null);
 
 		// create a drive for the result
 		dataAfter.driveStack.add(0, new JDrive(dataAfter.yardline, yards, result, dataAfter.offense));
@@ -415,7 +415,7 @@ public class JSpot
 		if(yardline < 0)
 		{
 			s = i.toString() + " yards deep in the endzone.";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			s = dataAfter.teams[dataAfter.offense].name + ", you have intercepted the pass, " + i.toString() + " yards deep in the endzone. Do you want to...";
 			JDialogStage dialog = new JDialogStage();
@@ -427,7 +427,7 @@ public class JSpot
 		else
 		{
 			s = " at the " + JGame.formatYardline(dataAfter.yardline, dataAfter.offense, dataAfter.defense);
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 			JGame.offensivePlay = JGame.Plays.InterceptionReturn;
 			JGame.defensivePlay = JGame.Plays.Undefined;
 			_action = Action.ballLive;
@@ -459,7 +459,7 @@ public class JSpot
 	{
 		if(dataAfter.yardline >= 100)
 		{
-			JPlayByPlay.text.addSegment(" Safety.", Color.BLUE, false, null);
+			Output.text.addSegment(" Safety.", Color.BLUE, false, null);
 
 			dataAfter.stats[dataAfter.offense].TotalSafeties();
 			dataAfter.togo = 10;
@@ -508,14 +508,14 @@ public class JSpot
 
 			if(JGame.dice.offense() > JGame.data.teams[JGame.data.offense].fumble)
 			{
-				JPlayByPlay.text.addSegment(" the kick is blocked, recovered by the defense. ", Color.RED, false, null);
+				Output.text.addSegment(" the kick is blocked, recovered by the defense. ", Color.RED, false, null);
 				dataAfter.stats[dataAfter.offense].PuntBlocked();
 				Turnover();
 				return true;
 			}
 			else
 			{
-				JPlayByPlay.text.addSegment(" the kick is blocked, recovered by the offense. ", Color.RED, false, null);
+				Output.text.addSegment(" the kick is blocked, recovered by the offense. ", Color.RED, false, null);
 				dataAfter.stats[dataAfter.offense].PuntBlocked();
 				return false;
 			}
@@ -532,14 +532,14 @@ public class JSpot
 		{
 			if(result.F_LOST())
 			{
-				JPlayByPlay.text.addSegment(" the ball is fumbled, recovered by the defense. ", Color.RED, false, null);
+				Output.text.addSegment(" the ball is fumbled, recovered by the defense. ", Color.RED, false, null);
 				dataAfter.stats[dataAfter.offense].TotalFumbles(true);
 				Turnover();
 				return true;
 			}
 			else
 			{
-				JPlayByPlay.text.addSegment(" the ball is fumbled, recovered by the offense. ", Color.RED, false, null);
+				Output.text.addSegment(" the ball is fumbled, recovered by the offense. ", Color.RED, false, null);
 				dataAfter.stats[dataAfter.offense].TotalFumbles(false);
 				return false;
 			}
@@ -560,7 +560,7 @@ public class JSpot
 			}
 			else
 			{
-				JPlayByPlay.text.addSegment(" Firstdown.", Color.BLUE, false, null);
+				Output.text.addSegment(" Firstdown.", Color.BLUE, false, null);
 
 				dataAfter.stats[dataAfter.offense].FirstDown();
 				dataAfter.togo = 10;
@@ -582,7 +582,7 @@ public class JSpot
 	{
 		if(dataAfter.down > 4)
 		{
-			JPlayByPlay.text.addSegment(" The ball goes over on downs.", Color.RED, false, null);
+			Output.text.addSegment(" The ball goes over on downs.", Color.RED, false, null);
 			Turnover();
 
 			return true;
@@ -647,13 +647,13 @@ public class JSpot
 	{
 		int yards = result.Yards();
 		String s = dataAfter.teams[dataAfter.offense].name + " kicking off, kicks a squib, fielded at the ";
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		dataAfter.driveStack.add(0, new JDrive(dataAfter.yardline, yards, result, dataAfter.offense));
 		dataAfter.yardline -= yards;
 
 		s = where() + "\n";
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		Turnover();
 
@@ -666,7 +666,7 @@ public class JSpot
 	{
 		int yards = result.Yards();
 		String s = dataAfter.teams[dataAfter.offense].name + " attempts an onsides kick.\n";
-		JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+		Output.text.addSegment(s, Color.BLACK, false, null);
 
 		dataAfter.driveStack.add(0, new JDrive(dataAfter.yardline, yards, result, dataAfter.offense));
 		dataAfter.yardline -= yards;
@@ -674,12 +674,12 @@ public class JSpot
 		if(result.RECOVERED())
 		{
 			s = "Recovered by the kicking team.\n";
-			JPlayByPlay.text.addSegment(s, Color.GREEN, false, null);
+			Output.text.addSegment(s, Color.GREEN, false, null);
 		}
 		else
 		{
 			s = "Recovered by the return team.\n";
-			JPlayByPlay.text.addSegment(s, Color.BLUE, false, null);
+			Output.text.addSegment(s, Color.BLUE, false, null);
 
 			Turnover();
 		}
@@ -701,7 +701,7 @@ public class JSpot
 		if(dataAfter.yardline < 100)
 		{
 			s = "The " + dataAfter.teams[dataAfter.defense].name + " kicksoff travels " + yards + " yards to " + where() + "\n";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			dataAfter.togo = 10;
 			dataAfter.down = 1;
@@ -716,7 +716,7 @@ public class JSpot
 			int y = (int)(dataAfter.yardline - 100);
 
 			s = dataAfter.teams[dataAfter.defense].name + " kicks the ball " + y + " yards deep in the endzone.\n";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			s = "The kickoff is fielded " + y + " yards deep in the endzone. " + dataAfter.teams[dataAfter.offense].name + ", do you want to...";
 			JDialogStage dialog = new JDialogStage();
@@ -742,7 +742,7 @@ public class JSpot
 				dataAfter.down = 1;
 
 				s = "Touchback. " + downAndDistance();
-				JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+				Output.text.addSegment(s, Color.BLACK, false, null);
 			}
 
 		}
@@ -754,7 +754,7 @@ public class JSpot
 			dataAfter.down = 1;
 
 			s = dataAfter.teams[dataAfter.defense].name + " kicks the ball through the endzone. Touchback.\n" + downAndDistance();
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 		}
 
 		JOptions.normal();
@@ -809,21 +809,21 @@ public class JSpot
 			}
 
 			s = s + " for a ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 			s = "touchdown";
-			JPlayByPlay.text.addSegment(s, Color.BLUE, false, null);
+			Output.text.addSegment(s, Color.BLUE, false, null);
 		}
 
 		else if(Fumble())
 		{
 			s = s + " to " + where() + "\n" + downAndDistance();
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 		}
 
 		else
 		{
 			s = s + " to " + where() + "\n" + downAndDistance();
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 		}
 	}
 
@@ -842,7 +842,7 @@ public class JSpot
 
 			// for normal plays, prefix the play by play with the offensive teams name.
 			s = dataAfter.teams[dataAfter.offense].name + " punts the ball " + yards + " yards ";
-			JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+			Output.text.addSegment(s, Color.BLACK, false, null);
 
 			if(result.PNR() || result.OB())
 			{
@@ -853,7 +853,7 @@ public class JSpot
 				dataAfter.yardline -= yards;
 
 				s = "to " + where() + " No return\n";
-				JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+				Output.text.addSegment(s, Color.BLACK, false, null);
 
 				Turnover();
 				dataAfter.togo = 10;
@@ -870,7 +870,7 @@ public class JSpot
 				dataAfter.yardline -= yards;
 
 				s = "to " + where() + "\n";
-				JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+				Output.text.addSegment(s, Color.BLACK, false, null);
 
 				Turnover();
 				dataAfter.togo = 10;
@@ -898,7 +898,7 @@ public class JSpot
 				dataAfter.down = 1;
 
 				s = s + downAndDistance();
-				JPlayByPlay.text.addSegment(s, Color.BLACK, false, null);
+				Output.text.addSegment(s, Color.BLACK, false, null);
 			}
 		}
 	}

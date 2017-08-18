@@ -2,10 +2,10 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.paint.Color;
 
-public class JPlayByPlay extends JPanel
+public class Output extends JPanel
 {
 	static JString text = new JString();
-	public JPlayByPlay(Color color)
+	public Output(Color color)
 	{
 		super(color);
 
