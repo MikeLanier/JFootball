@@ -2,10 +2,10 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.paint.Color;
 
-public class Output extends JPanel
+public class JOutput extends JPanel
 {
 	static JString text = new JString();
-	public Output(Color color)
+	public JOutput(Color color)
 	{
 		super(color);
 

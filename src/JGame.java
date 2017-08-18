@@ -66,7 +66,7 @@ public class JGame extends GridPane
 
 	static JScoreboard scoreboard = new JScoreboard(Color.WHITE);
 	static JField field = new JField(Color.GRAY);
-	static Output output = new Output(Color.WHITE);
+	static JOutput jOutput = new JOutput(Color.WHITE);
 	static JBoxScoreTableView boxScore = new JBoxScoreTableView();
 	static JOptions options = new JOptions(Color.WHITE);
 
@@ -148,7 +148,7 @@ public class JGame extends GridPane
 
 		add(scoreboard, 0, 0);
 		add(field, 0, 1);
-		add(output, 0, 2);
+		add(jOutput, 0, 2);
 		add(options, 0, 3);
 		add(boxScore, 1, 0, 1, 4);
 		//add(options, 0, 3, 2, 1);
@@ -229,7 +229,7 @@ public class JGame extends GridPane
 		offensivePlay = JOptions.selectedPlayOffense();
 		defensivePlay = JOptions.selectedPlayDefense();
 
-		Output.text.getChildren().clear();
+		JOutput.text.getChildren().clear();
 
 		do
 		{
