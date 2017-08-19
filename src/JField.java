@@ -137,10 +137,15 @@ public class JField extends Canvas
 
 		// draw yard lines every 5 yards
 		double x = fieldRange.getX() + m_dEndZoneDepth * scale;
-		for(int i = 0; i < 21; i++)
+//		for(int i = 0; i < 21; i++)
+//		{
+//			gc.strokeLine(x, fieldRange.getY(), x, fieldRange.getY() + fieldRange.getHeight());
+//			x += 15 * scale;
+//		}
+		for(int i = 0; i < 11; i++)
 		{
 			gc.strokeLine(x, fieldRange.getY(), x, fieldRange.getY() + fieldRange.getHeight());
-			x += 15 * scale;
+			x += 30 * scale;
 		}
 
 		// draw hash marks every yard

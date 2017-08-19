@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class JGame extends GridPane
 {
 	static Color	LIGHTGREEN = Color.rgb(197,240,185);
+	static Color	WHITE = Color.rgb(255,255,255);
 
 	public enum Plays
 	{

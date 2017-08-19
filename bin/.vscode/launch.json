@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+	  
+    {
+      "name": "Java",
+      "type": "java",
+	  "request": "launch",
+	  "sourcePath": [
+		  "${workspaceRoot}/src/"
+	  ],
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasename}",
+      "options": [
+        "-classpath",
+        "\"${fileDirname};.\""
+      ]
+    }
+  ]
+}

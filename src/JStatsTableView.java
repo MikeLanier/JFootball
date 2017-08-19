@@ -118,7 +118,7 @@ public class JStatsTableView extends TableView
 				);
 
 		setBorder(new Border(new BorderStroke(Color.BLACK, BorderStrokeStyle.SOLID, new CornerRadii(5), new BorderWidths(1))));
-		setBackground(new Background(new BackgroundFill(JGame.LIGHTGREEN, new CornerRadii(5), null)));
+		setBackground(new Background(new BackgroundFill(JGame.WHITE, new CornerRadii(5), null)));
 		setPadding(new Insets(5,5,5,5));
 
 		itemsProperty().setValue(data);
