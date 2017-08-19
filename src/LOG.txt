@@ -1,0 +1,8146 @@
+JGame log....
+1400.0,0.0
+1400.0,800.0
+1840.0,800.0
+1840.0,937.0
+1839.0,937.0
+1833.0,937.0
+1829.0,937.0
+1828.0,937.0
+1826.0,937.0
+1823.0,937.0
+1820.0,937.0
+1819.0,937.0
+1820.0,937.0
+1821.0,937.0
+1822.0,937.0
+1821.0,937.0
+1820.0,937.0
+1819.0,937.0
+1818.0,937.0
+1817.0,937.0
+1818.0,937.0
+1819.0,937.0
+1820.0,937.0
+1821.0,937.0
+1825.0,937.0
+1826.0,937.0
+1827.0,937.0
+1829.0,937.0
+1832.0,937.0
+1835.0,937.0
+1836.0,937.0
+1837.0,937.0
+1842.0,937.0
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 900
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 66
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 66
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 890
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 2
+    togo: 10
+    yardline: 80
+    time: 860
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 5
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 3
+    togo: 5
+    yardline: 75
+    time: 830
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, LongPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, LongPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 4
+    togo: 3
+    yardline: 73
+    time: 800
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Punt, ShortPass
+{
+    GetResultOffense: Punt
+    {
+        Dice: offense: 27
+        Result:
+            Yards: 44
+            Play : Punt
+            oMods: OB
+            Who  : offense
+    }
+    GetResultDefense: Punt, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Punt
+            Who  : defense
+    }
+    Result:
+        Yards: 44
+        Play : Punt
+        oMods: OB
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Punt
+        Who  : defense
+    Result:
+        Yards: 44
+        Play : Punt
+        oMods: OB
+             : OB
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 71
+    time: 790
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 2
+    togo: 11
+    yardline: 72
+    time: 760
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 3
+    togo: 7
+    yardline: 68
+    time: 730
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Screen, LongPass
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 22
+        Result:
+            Yards: 9
+            Play : Screen
+            Who  : offense
+    }
+    GetResultDefense: Screen, LongPass
+    {
+        Result:
+            Yards: 0
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Screen
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Screen
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 59
+    time: 710
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 5
+            Play : EndReverse
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 31
+    Result:
+        Yards: 5
+        Play : EndReverse
+        aMod : DEF
+        Who  : undefined
+}
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 5
+    yardline: 54
+    time: 680
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -4
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: -2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 2
+    togo: 7
+    yardline: 56
+    time: 650
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 22
+        Result:
+            Yards: 1
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 3
+    togo: 6
+    yardline: 55
+    time: 620
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Screen, Standard
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 20
+        Result:
+            Yards: 0
+            Play : Screen
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Screen, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Screen
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Screen
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 21
+            Result:
+                Yards: -6
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -6
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -6
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 4
+    togo: 12
+    yardline: 61
+    time: 590
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Punt, Standard
+{
+    GetResultOffense: Punt
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 43
+            Play : Punt
+            Who  : offense
+    }
+    GetResultDefense: Punt, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Punt
+            Who  : defense
+    }
+    Result:
+        Yards: 43
+        Play : Punt
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Punt
+        Who  : defense
+    Result:
+        Yards: 43
+        Play : Punt
+        Who  : combined
+}
+JResult: PuntReturn, Undefined
+{
+    GetResultOffense: PuntReturn
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 13
+            Play : PuntReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 13
+        Play : PuntReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 69
+    time: 560
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Draw, ShortPass
+{
+    GetResultOffense: Draw
+    {
+        Dice: offense: 18
+        Result:
+            Yards: -2
+            Play : Draw
+            Who  : offense
+    }
+    GetResultDefense: Draw, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Draw
+            Who  : defense
+    }
+    Result:
+        Yards: -2
+        Play : Draw
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Draw
+        Who  : defense
+    Result:
+        Yards: -2
+        Play : Draw
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 2
+    togo: 12
+    yardline: 71
+    time: 530
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 5
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 3
+    togo: 7
+    yardline: 66
+    time: 500
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, Standard
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, Standard
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 22
+            Result:
+                Yards: -2
+                Play : QuarterbackTrapped
+                aMod : F
+                Who  : offense
+        }
+        Dice: offense: 32
+        Result:
+            Yards: -2
+            Play : QuarterbackTrapped
+            aMod : F
+            oMods: F_LOST
+            Who  : undefined
+    }
+    Dice: offense: 25
+    Result:
+        Yards: -2
+        Play : QuarterbackTrapped
+        aMod : F
+        oMods: F_LOST
+             : F_RECOVERED
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 32
+    time: 490
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 2
+    togo: 6
+    yardline: 28
+    time: 460
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 1
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 3
+    togo: 3
+    yardline: 25
+    time: 430
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortGaps
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 26
+        Result:
+            Yards: 2
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 2
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 4
+    togo: 1
+    yardline: 23
+    time: 400
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Blitz
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 18
+        Result:
+            Yards: 17
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Blitz
+    {
+        Result:
+            Yards: -1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 17
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 16
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 7
+    time: 380
+    score[0][0]: 0
+    score[0][1]: 0
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 39
+        Result:
+            Yards: 17
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 17
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 17
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 370
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 14
+        Result:
+            Yards: 49
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 49
+        Play : Kickoff
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 32
+            Play : KickoffReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 32
+        Play : KickoffReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 57
+    time: 340
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 8
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 8
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 2
+    togo: 4
+    yardline: 51
+    time: 310
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Blitz
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 7
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Blitz
+    {
+        Result:
+            Yards: -1
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 7
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 45
+    time: 290
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 5
+            Play : Counter
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 35
+    Result:
+        Yards: 5
+        Play : Counter
+        aMod : DEF
+        Who  : undefined
+}
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -4
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: -2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 5
+    yardline: 40
+    time: 260
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortWide
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 22
+        Result:
+            Yards: 6
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 6
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 2
+    togo: 1
+    yardline: 36
+    time: 230
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 5
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: -1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 32
+    time: 210
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 1
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -4
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: -3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 2
+    togo: 13
+    yardline: 35
+    time: 180
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Option, ShortWide
+{
+    GetResultOffense: Option
+    {
+        Dice: offense: 22
+        Result:
+            Yards: 0
+            Play : Option
+            Who  : offense
+    }
+    GetResultDefense: Option, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Option
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Option
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Option
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Option
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 3
+    togo: 13
+    yardline: 35
+    time: 150
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 11
+        Result:
+            Yards: 35
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 35
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 26
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 9
+    time: 130
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 10
+            Play : EndReverse
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 35
+    Result:
+        Yards: 5
+        Play : EndReverse
+        aMod : OFF
+        Who  : undefined
+}
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 1
+            Play : EndReverse
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Standard
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 28
+            Result:
+                Yards: 35
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 35
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 35
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 15
+    yardline: 14
+    time: 120
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: OnsidesKick, Undefined
+{
+    Dice: offense: 14
+    Result:
+        Yards: 12
+        Play : OnsidesKick
+        oMods: RECOVERED
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 1
+    down: 1
+    togo: 15
+    yardline: 2
+    time: 110
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 64
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 64
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 100
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 21
+        Result:
+            Yards: 5
+            Play : Counter
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 35
+    Result:
+        Yards: 5
+        Play : Counter
+        aMod : DEF
+        Who  : undefined
+}
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 5
+    yardline: 75
+    time: 70
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 3
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 7
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 1
+    togo: 10
+    yardline: 68
+    time: 50
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 3
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 1
+    down: 2
+    togo: 7
+    yardline: 65
+    time: 20
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 17
+        Result:
+            Yards: 10
+            Play : LinePlunge
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 25
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        aMod : OFF
+        Who  : undefined
+}
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 1
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 12
+    yardline: 70
+    time: 900
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Bootleg, ShortWide
+{
+    GetResultOffense: Bootleg
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 0
+            Play : Bootleg
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Bootleg, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Bootleg
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Bootleg
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Bootleg
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Bootleg
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 3
+    togo: 12
+    yardline: 70
+    time: 870
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Punt, LongPass
+{
+    GetResultOffense: Punt
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 30
+            Play : Punt
+            oMods: OB
+            Who  : offense
+    }
+    GetResultDefense: Punt, LongPass
+    {
+        Result:
+            Yards: 0
+            Play : Punt
+            Who  : defense
+    }
+    Result:
+        Yards: 30
+        Play : Punt
+        oMods: OB
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Punt
+        Who  : defense
+    Result:
+        Yards: 30
+        Play : Punt
+        oMods: OB
+             : OB
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 860
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Screen, ShortPass
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : Screen
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Screen, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Screen
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Screen
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 2
+    togo: 10
+    yardline: 60
+    time: 830
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 24
+        Result:
+            Yards: 17
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 17
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 17
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 43
+    time: 810
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 7
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Standard
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 2
+    togo: 3
+    yardline: 36
+    time: 780
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 24
+        Result:
+            Yards: 1
+            Play : Counter
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 23
+            Result:
+                Yards: 34
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 34
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 34
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 2
+    time: 760
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 2
+    togo: 10
+    yardline: 2
+    time: 730
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 0
+    score[1][1]: 0
+    score[1][2]: 0
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 1
+            Play : Counter
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 37
+            Result:
+                Yards: 22
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 22
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 22
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 720
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 26
+        Result:
+            Yards: 66
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 66
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 710
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 17
+        Result:
+            Yards: 10
+            Play : Counter
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 36
+    Result:
+        Yards: 5
+        Play : Counter
+        aMod : OFF
+        Who  : undefined
+}
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 17
+        Result:
+            Yards: 5
+            Play : Counter
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 18
+    Result:
+        Yards: 5
+        Play : Counter
+        aMod : OFF
+        Who  : undefined
+}
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 27
+        Result:
+            Yards: 0
+            Play : Counter
+            aMod : F
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Counter
+        aMod : F
+        Who  : offense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : defense
+    Dice: offense: 24
+    Result:
+        Yards: 0
+        Play : Counter
+        aMod : F
+        oMods: F_RECOVERED
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 15
+    yardline: 85
+    time: 680
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 15
+    yardline: 85
+    time: 650
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Screen, ShortWide
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 10
+            Play : Screen
+            Who  : offense
+    }
+    GetResultDefense: Screen, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 8
+        Play : Screen
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 3
+    togo: 7
+    yardline: 77
+    time: 620
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Screen, ShortPass
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 21
+        Result:
+            Yards: 10
+            Play : Screen
+            Who  : offense
+    }
+    GetResultDefense: Screen, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 67
+    time: 600
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 3
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 7
+    yardline: 64
+    time: 570
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 5
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 3
+    togo: 2
+    yardline: 59
+    time: 540
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 30
+        Result:
+            Yards: 3
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 57
+    time: 520
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 1
+            Play : Counter
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 26
+            Result:
+                Yards: 24
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 24
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 24
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 33
+    time: 500
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 28
+        Result:
+            Yards: 1
+            Play : EndReverse
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 32
+            Result:
+                Yards: 20
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 20
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 20
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 13
+    time: 480
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 1
+    yardline: 4
+    time: 450
+    score[0][0]: 7
+    score[0][1]: 7
+    score[0][2]: 0
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 30
+        Result:
+            Yards: 6
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 6
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 440
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 64
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 64
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 430
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 2
+    togo: 6
+    yardline: 76
+    time: 400
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortWide
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 26
+        Result:
+            Yards: -1
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: -1
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: -3
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 3
+    togo: 9
+    yardline: 79
+    time: 370
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 10
+            Play : Dropback
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 12
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : OFF
+        Who  : undefined
+}
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 20
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 11
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 3
+    togo: 14
+    yardline: 84
+    time: 350
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortWide
+    {
+        Result:
+            Yards: -5
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: -5
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 4
+    togo: 14
+    yardline: 84
+    time: 320
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Punt, ShortPass
+{
+    GetResultOffense: Punt
+    {
+        Dice: offense: 14
+        Result:
+            Yards: 24
+            Play : Punt
+            Who  : offense
+    }
+    GetResultDefense: Punt, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Punt
+            Who  : defense
+    }
+    Result:
+        Yards: 24
+        Play : Punt
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Punt
+        Who  : defense
+    Result:
+        Yards: 24
+        Play : Punt
+        Who  : combined
+}
+JResult: PuntReturn, Undefined
+{
+    GetResultOffense: PuntReturn
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 0
+            Play : PuntReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 0
+        Play : PuntReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 40
+    time: 290
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 21
+        Result:
+            Yards: 3
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 3
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 4
+    yardline: 34
+    time: 260
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 25
+    time: 240
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 24
+        Result:
+            Yards: 1
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 9
+    yardline: 24
+    time: 210
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 18
+        Result:
+            Yards: 17
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 17
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 19
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 5
+    time: 190
+    score[0][0]: 14
+    score[0][1]: 7
+    score[0][2]: 7
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 7
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 7
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 7
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 180
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 58
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 58
+        Play : Kickoff
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 32
+            Play : KickoffReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 32
+        Play : KickoffReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 66
+    time: 150
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortWide
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 14
+        Result:
+            Yards: -3
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortWide
+    {
+        Result:
+            Yards: -3
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: -3
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: -3
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: -6
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 2
+    down: 2
+    togo: 16
+    yardline: 72
+    time: 120
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, Standard
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 23
+            Play : Dropback
+            aMod : INT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, Standard
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 23
+        Play : Dropback
+        aMod : INT
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 23
+        Play : Dropback
+        aMod : INT
+        Who  : combined
+}
+JResult: InterceptionReturn, Undefined
+{
+    GetResultOffense: InterceptionReturn
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 15
+            Play : InterceptionReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 15
+        Play : InterceptionReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 36
+    time: 90
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 29
+        Result:
+            Yards: 12
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 12
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 12
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 1
+    togo: 10
+    yardline: 24
+    time: 70
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 30
+        Result:
+            Yards: 3
+            Play : EndReverse
+            aMod : F
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : EndReverse
+        aMod : F
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Dice: offense: 24
+    Result:
+        Yards: 3
+        Play : EndReverse
+        aMod : F
+        oMods: F_RECOVERED
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 2
+    togo: 7
+    yardline: 21
+    time: 40
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 2
+    down: 3
+    togo: 7
+    yardline: 21
+    time: 10
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 1
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 3
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 4
+    togo: 3
+    yardline: 17
+    time: 900
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 85
+    time: 890
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 26
+        Result:
+            Yards: 24
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 24
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 24
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 61
+    time: 870
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 2
+    togo: 10
+    yardline: 61
+    time: 840
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Bootleg, LongPass
+{
+    GetResultOffense: Bootleg
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 0
+            Play : Bootleg
+            aMod : QR
+            Who  : offense
+    }
+    GetResultDefense: Bootleg, LongPass
+    {
+        Result:
+            Yards: -2
+            Play : Bootleg
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Bootleg
+        aMod : QR
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : Bootleg
+        Who  : defense
+    JResult: QuarterbackRun, Undefined
+    {
+        GetResultOffense: QuarterbackRun
+        {
+            Dice: offense: 24
+            Result:
+                Yards: 5
+                Play : QuarterbackRun
+                Who  : offense
+        }
+        Result:
+            Yards: 5
+            Play : QuarterbackRun
+            Who  : undefined
+    }
+    Result:
+        Yards: 3
+        Play : QuarterbackRun
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 3
+    togo: 7
+    yardline: 58
+    time: 810
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: 26
+            Play : Dropback
+            aMod : INT
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: 26
+        Play : Dropback
+        aMod : INT
+        Who  : defense
+    Result:
+        Yards: 26
+        Play : Dropback
+        aMod : INT
+        Who  : combined
+}
+JResult: InterceptionReturn, Undefined
+{
+    GetResultOffense: InterceptionReturn
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 0
+            Play : InterceptionReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 0
+        Play : InterceptionReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 68
+    time: 780
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 7
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 3
+    yardline: 61
+    time: 750
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Blitz
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Blitz
+    {
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 55
+    time: 730
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 20
+        Result:
+            Yards: 1
+            Play : EndReverse
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 35
+            Result:
+                Yards: 19
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 19
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 19
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 36
+    time: 710
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, Blitz
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 7
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Blitz
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 7
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 3
+    yardline: 29
+    time: 680
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 20
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 20
+    time: 660
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 24
+        Result:
+            Yards: 5
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 5
+    yardline: 15
+    time: 630
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 3
+    togo: 3
+    yardline: 13
+    time: 600
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 22
+        Result:
+            Yards: 1
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 4
+    togo: 2
+    yardline: 12
+    time: 570
+    score[0][0]: 21
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 0
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 28
+        Result:
+            Yards: 1
+            Play : EndReverse
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : EndReverse
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 20
+            Result:
+                Yards: 56
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 56
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 56
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 560
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 21
+        Result:
+            Yards: 64
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 64
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 550
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 8
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 8
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 8
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 2
+    togo: 2
+    yardline: 72
+    time: 520
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 20
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortGaps
+    {
+        Result:
+            Yards: 1
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 1
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 21
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 51
+    time: 500
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortGaps
+    {
+        Result:
+            Yards: 3
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: 3
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 34
+            Result:
+                Yards: -8
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -8
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -8
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 2
+    togo: 18
+    yardline: 59
+    time: 470
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 14
+        Result:
+            Yards: 5
+            Play : Dropback
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 32
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : DEF
+        Who  : undefined
+}
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 2
+    togo: 13
+    yardline: 54
+    time: 440
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: SprintOut, ShortWide
+{
+    GetResultOffense: SprintOut
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : SprintOut
+            aMod : QR
+            Who  : offense
+    }
+    GetResultDefense: SprintOut, ShortWide
+    {
+        Result:
+            Yards: -1
+            Play : SprintOut
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : SprintOut
+        aMod : QR
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : SprintOut
+        Who  : defense
+    JResult: QuarterbackRun, Undefined
+    {
+        GetResultOffense: QuarterbackRun
+        {
+            Dice: offense: 36
+            Result:
+                Yards: 11
+                Play : QuarterbackRun
+                Who  : offense
+        }
+        Result:
+            Yards: 11
+            Play : QuarterbackRun
+            Who  : undefined
+    }
+    Result:
+        Yards: 10
+        Play : QuarterbackRun
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 3
+    togo: 3
+    yardline: 44
+    time: 410
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 17
+            Play : Dropback
+            aMod : PI
+            Who  : offense
+    }
+    Dice: offense: 32
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : PI
+        Who  : undefined
+}
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortPass
+    {
+        Result:
+            Yards: -1
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 33
+            Result:
+                Yards: -5
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -5
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -5
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 39
+    time: 380
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Bootleg, ShortWide
+{
+    GetResultOffense: Bootleg
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 0
+            Play : Bootleg
+            aMod : QR
+            Who  : offense
+    }
+    GetResultDefense: Bootleg, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Bootleg
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Bootleg
+        aMod : QR
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Bootleg
+        Who  : defense
+    JResult: QuarterbackRun, Undefined
+    {
+        GetResultOffense: QuarterbackRun
+        {
+            Dice: offense: 30
+            Result:
+                Yards: 16
+                Play : QuarterbackRun
+                Who  : offense
+        }
+        Result:
+            Yards: 16
+            Play : QuarterbackRun
+            Who  : undefined
+    }
+    Result:
+        Yards: 16
+        Play : QuarterbackRun
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 23
+    time: 360
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: EndReverse, ShortWide
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 3
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 2
+    togo: 9
+    yardline: 22
+    time: 330
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 27
+        Result:
+            Yards: 5
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 3
+    togo: 4
+    yardline: 17
+    time: 300
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 13
+    time: 280
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 7
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 0
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 1
+            Play : Counter
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: -3
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: -3
+        Play : Counter
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 34
+            Result:
+                Yards: 28
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 28
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 25
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 270
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 67
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 67
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 260
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -3
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -3
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 9
+    yardline: 79
+    time: 230
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: EndReverse, ShortWide
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 3
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortWide
+    {
+        Result:
+            Yards: -4
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: -1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 3
+    togo: 10
+    yardline: 80
+    time: 200
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 16
+        Result:
+            Yards: 22
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 22
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 22
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 58
+    time: 180
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortGaps
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 3
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 7
+    yardline: 55
+    time: 150
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 1
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 3
+    togo: 6
+    yardline: 54
+    time: 120
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, Blitz
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 14
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, Blitz
+    {
+        Result:
+            Yards: -4
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 14
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 10
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 44
+    time: 100
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Screen, ShortWide
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 10
+            Play : Screen
+            Who  : offense
+    }
+    GetResultDefense: Screen, ShortWide
+    {
+        Result:
+            Yards: -2
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : offense
+    Result:
+        Yards: -2
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 8
+        Play : Screen
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 2
+    togo: 2
+    yardline: 36
+    time: 70
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 3
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -4
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -4
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 3
+    togo: 3
+    yardline: 37
+    time: 40
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 5
+            Play : EndReverse
+            yMod : X_GAIN
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 14
+    Result:
+        Yards: 5
+        Play : EndReverse
+        yMod : X_GAIN
+        aMod : DEF
+        Who  : undefined
+}
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 4
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Standard
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 3
+    down: 1
+    togo: 10
+    yardline: 32
+    time: 20
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, Blitz
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Blitz
+    {
+        Result:
+            Yards: -1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 7
+    yardline: 29
+    time: 900
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: EndReverse, ShortGaps
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 32
+        Result:
+            Yards: -1
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: -1
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: -1
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 3
+    togo: 8
+    yardline: 30
+    time: 870
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Screen, Standard
+{
+    GetResultOffense: Screen
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 10
+            Play : Screen
+            Who  : offense
+    }
+    GetResultDefense: Screen, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Screen
+            Who  : defense
+    }
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Screen
+        Who  : defense
+    Result:
+        Yards: 10
+        Play : Screen
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 20
+    time: 850
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, Standard
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, Standard
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 6
+    yardline: 16
+    time: 820
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, LongPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 26
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, LongPass
+    {
+        Result:
+            Yards: 1
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 1
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 3
+    togo: 3
+    yardline: 13
+    time: 790
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortGaps
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 31
+        Result:
+            Yards: 5
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortGaps
+    {
+        Result:
+            Yards: -1
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: -1
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 9
+    time: 770
+    score[0][0]: 28
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 0
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 29
+        Result:
+            Yards: 12
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 2
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 12
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 2
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 14
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 760
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 39
+        Result:
+            Yards: 74
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 74
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 750
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, Standard
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, Standard
+    {
+        Result:
+            Yards: -6
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: -6
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 2
+    togo: 10
+    yardline: 80
+    time: 720
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 5
+            Play : Dropback
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 32
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : OFF
+        Who  : undefined
+}
+JResult: Dropback, ShortPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 31
+            Result:
+                Yards: -3
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -3
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -3
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 3
+    togo: 13
+    yardline: 83
+    time: 690
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 4
+    togo: 13
+    yardline: 83
+    time: 660
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 5
+            Play : Dropback
+            aMod : PI
+            Who  : offense
+    }
+    Dice: offense: 27
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : PI
+        Who  : undefined
+}
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 21
+        Result:
+            Yards: 29
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 29
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 4
+    togo: 8
+    yardline: 78
+    time: 640
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, Standard
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 27
+        Result:
+            Yards: 15
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, Standard
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 15
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 28
+    time: 630
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 6
+    yardline: 24
+    time: 600
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, LongPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 14
+        Result:
+            Yards: 6
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, LongPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 6
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 18
+    time: 580
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortWide
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 6
+    yardline: 14
+    time: 550
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 3
+    togo: 2
+    yardline: 10
+    time: 520
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 5
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 5
+    time: 500
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 4
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 6
+    yardline: 1
+    time: 470
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 3
+    togo: 6
+    yardline: 1
+    time: 440
+    score[0][0]: 35
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 7
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 3
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 430
+    score[0][0]: 42
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 14
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 68
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 68
+        Play : Kickoff
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 20
+        Result:
+            Yards: 13
+            Play : KickoffReturn
+            aMod : F
+            Who  : offense
+    }
+    Dice: offense: 33
+    Result:
+        Yards: 13
+        Play : KickoffReturn
+        aMod : F
+        oMods: F_LOST
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 5
+    time: 420
+    score[0][0]: 42
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 14
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 5
+            Play : EndReverse
+            yMod : X_GAIN
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 35
+    Result:
+        Yards: 5
+        Play : EndReverse
+        yMod : X_GAIN
+        aMod : DEF
+        Who  : undefined
+}
+JResult: EndReverse, ShortPass
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 8
+    yardline: 3
+    time: 390
+    score[0][0]: 42
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 14
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 15
+            Play : LinePlunge
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 37
+    Result:
+        Yards: 5
+        Play : LinePlunge
+        aMod : DEF
+        Who  : undefined
+}
+JResult: LinePlunge, ShortPass
+{
+    GetResultOffense: LinePlunge
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 3
+            Play : LinePlunge
+            Who  : offense
+    }
+    GetResultDefense: LinePlunge, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : LinePlunge
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : LinePlunge
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : LinePlunge
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 380
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 58
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 58
+        Play : Kickoff
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 15
+            Play : KickoffReturn
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 30
+    Result:
+        Yards: 5
+        Play : KickoffReturn
+        aMod : OFF
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 5
+            Play : KickoffReturn
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 24
+    Result:
+        Yards: 5
+        Play : KickoffReturn
+        aMod : OFF
+        Who  : undefined
+}
+JResult: KickoffReturn, Undefined
+{
+    GetResultOffense: KickoffReturn
+    {
+        Dice: offense: 25
+        Result:
+            Yards: 32
+            Play : KickoffReturn
+            Who  : offense
+    }
+    Result:
+        Yards: 32
+        Play : KickoffReturn
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 66
+    time: 350
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 14
+        Result:
+            Yards: 5
+            Play : Dropback
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 15
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : DEF
+        Who  : undefined
+}
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 20
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortGaps
+    {
+        Result:
+            Yards: 1
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 1
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 21
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 45
+    time: 330
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 35
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortWide
+    {
+        Result:
+            Yards: -5
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: -5
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 32
+            Result:
+                Yards: -9
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -9
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -9
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 2
+    togo: 19
+    yardline: 54
+    time: 300
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, LongPass
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : INC
+            Who  : offense
+    }
+    GetResultDefense: Dropback, LongPass
+    {
+        Result:
+            Yards: -9
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : offense
+    Result:
+        Yards: -9
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : INC
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 3
+    togo: 19
+    yardline: 54
+    time: 270
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortWide
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 30
+        Result:
+            Yards: 31
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortWide
+    {
+        Result:
+            Yards: -5
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 31
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: -5
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 26
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 28
+    time: 250
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 23
+        Result:
+            Yards: 20
+            Play : Dropback
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortGaps
+    {
+        Result:
+            Yards: 0
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Dropback
+        Who  : defense
+    Result:
+        Yards: 20
+        Play : Dropback
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 8
+    time: 230
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 20
+        Result:
+            Yards: 5
+            Play : Dropback
+            aMod : OFF
+            Who  : offense
+    }
+    Dice: offense: 13
+    Result:
+        Yards: 5
+        Play : Dropback
+        aMod : OFF
+        Who  : undefined
+}
+JResult: Dropback, ShortGaps
+{
+    GetResultOffense: Dropback
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 0
+            Play : Dropback
+            aMod : QT
+            Who  : offense
+    }
+    GetResultDefense: Dropback, ShortGaps
+    {
+        Result:
+            Yards: 3
+            Play : Dropback
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Dropback
+        aMod : QT
+        Who  : offense
+    Result:
+        Yards: 3
+        Play : Dropback
+        Who  : defense
+    JResult: QuarterbackTrapped, Undefined
+    {
+        GetResultOffense: QuarterbackTrapped
+        {
+            Dice: offense: 37
+            Result:
+                Yards: -2
+                Play : QuarterbackTrapped
+                Who  : offense
+        }
+        Result:
+            Yards: -2
+            Play : QuarterbackTrapped
+            Who  : undefined
+    }
+    Result:
+        Yards: -2
+        Play : QuarterbackTrapped
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 2
+    togo: 12
+    yardline: 10
+    time: 200
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 14
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 0
+JResult: Bootleg, ShortWide
+{
+    GetResultOffense: Bootleg
+    {
+        Dice: offense: 32
+        Result:
+            Yards: 0
+            Play : Bootleg
+            aMod : QR
+            Who  : offense
+    }
+    GetResultDefense: Bootleg, ShortWide
+    {
+        Result:
+            Yards: -3
+            Play : Bootleg
+            Who  : defense
+    }
+    Result:
+        Yards: 0
+        Play : Bootleg
+        aMod : QR
+        Who  : offense
+    Result:
+        Yards: -3
+        Play : Bootleg
+        Who  : defense
+    JResult: QuarterbackRun, Undefined
+    {
+        GetResultOffense: QuarterbackRun
+        {
+            Dice: offense: 28
+            Result:
+                Yards: 14
+                Play : QuarterbackRun
+                Who  : offense
+        }
+        Result:
+            Yards: 14
+            Play : QuarterbackRun
+            Who  : undefined
+    }
+    Result:
+        Yards: 11
+        Play : QuarterbackRun
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 1
+    defense: 0
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 60
+    time: 190
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Kickoff, Undefined
+{
+    GetResultOffense: Kickoff
+    {
+        Dice: offense: 36
+        Result:
+            Yards: 64
+            Play : Kickoff
+            Who  : offense
+    }
+    Result:
+        Yards: 64
+        Play : Kickoff
+        Who  : undefined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 80
+    time: 180
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Counter, ShortGaps
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortGaps
+    {
+        Result:
+            Yards: -3
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: -3
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 6
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 4
+    yardline: 74
+    time: 150
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 38
+        Result:
+            Yards: 5
+            Play : EndReverse
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 32
+    Result:
+        Yards: 5
+        Play : EndReverse
+        aMod : DEF
+        Who  : undefined
+}
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 26
+        Result:
+            Yards: 5
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Standard
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 5
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 69
+    time: 130
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 13
+        Result:
+            Yards: 15
+            Play : Counter
+            aMod : DEF
+            Who  : offense
+    }
+    Dice: offense: 21
+    Result:
+        Yards: 5
+        Play : Counter
+        aMod : DEF
+        Who  : undefined
+}
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 5
+    yardline: 64
+    time: 100
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: EndReverse, Standard
+{
+    GetResultOffense: EndReverse
+    {
+        Dice: offense: 33
+        Result:
+            Yards: 3
+            Play : EndReverse
+            Who  : offense
+    }
+    GetResultDefense: EndReverse, Standard
+    {
+        Result:
+            Yards: 0
+            Play : EndReverse
+            Who  : defense
+    }
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : EndReverse
+        Who  : defense
+    Result:
+        Yards: 3
+        Play : EndReverse
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 2
+    togo: 2
+    yardline: 61
+    time: 70
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Counter, Standard
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 34
+        Result:
+            Yards: 9
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, Standard
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 9
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 52
+    time: 50
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Counter, ShortWide
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 37
+        Result:
+            Yards: 1
+            Play : Counter
+            yMod : B
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortWide
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 1
+        Play : Counter
+        yMod : B
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    JResult: Breakaway, Undefined
+    {
+        GetResultOffense: Breakaway
+        {
+            Dice: offense: 27
+            Result:
+                Yards: 22
+                Play : Breakaway
+                Who  : offense
+        }
+        Result:
+            Yards: 22
+            Play : Breakaway
+            Who  : undefined
+    }
+    Result:
+        Yards: 22
+        Play : Breakaway
+        oMods: B_RUSH
+        Who  : combined
+}
+1847.0,937.0
+Gamedata:
+    offense: 0
+    defense: 1
+    quarter: 4
+    down: 1
+    togo: 10
+    yardline: 30
+    time: 30
+    score[0][0]: 49
+    score[0][1]: 7
+    score[0][2]: 14
+    score[0][3]: 7
+    score[0][4]: 21
+    score[1][0]: 21
+    score[1][1]: 0
+    score[1][2]: 7
+    score[1][3]: 7
+    score[1][4]: 7
+JResult: Counter, ShortPass
+{
+    GetResultOffense: Counter
+    {
+        Dice: offense: 15
+        Result:
+            Yards: 4
+            Play : Counter
+            Who  : offense
+    }
+    GetResultDefense: Counter, ShortPass
+    {
+        Result:
+            Yards: 0
+            Play : Counter
+            Who  : defense
+    }
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : offense
+    Result:
+        Yards: 0
+        Play : Counter
+        Who  : defense
+    Result:
+        Yards: 4
+        Play : Counter
+        Who  : combined
+}
+1847.0,937.0
