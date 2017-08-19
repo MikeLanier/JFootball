@@ -93,6 +93,7 @@ public class JField extends Canvas
 		// get the size of the parent
 		m_canvasWidth = m_parent.getWidth();
 		m_canvasHeight = m_parent.getHeight();
+		JLog.writeln(m_canvasWidth + "," + m_canvasHeight);
 
 		// compute the size of the GridPane cell
 		m_canvasWidth = m_canvasWidth * columnConstraint.getPercentWidth() / 100;

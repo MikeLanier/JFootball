@@ -85,7 +85,7 @@ public class JScoreboard extends JPanel
 					JTeam team = new JTeam(tree.selectedTeamFilename());
 					JGame.data.teams[JGame.HOME] = team;
 					JGame.scoreboard.update();
-					JGame.boxScore.update();
+					JGame.stats.update();
 					JGame.field.draw();
 				}
 			}
@@ -113,7 +113,7 @@ public class JScoreboard extends JPanel
 					JTeam team = new JTeam(tree.selectedTeamFilename());
 					JGame.data.teams[JGame.VISITOR] = team;
 					JGame.scoreboard.update();
-					JGame.boxScore.update();
+					JGame.stats.update();
 					JGame.field.draw();
 				}
 			}

@@ -51,7 +51,7 @@ public class JGame extends GridPane
 
 		private int value;
 
-		private Plays(int value)
+		Plays(int value)
 		{
 			this.value = value;
 		}
@@ -66,8 +66,8 @@ public class JGame extends GridPane
 
 	static JScoreboard scoreboard = new JScoreboard(Color.WHITE);
 	static JField field = new JField(Color.GRAY);
-	static JOutput jOutput = new JOutput(Color.WHITE);
-	static JBoxScoreTableView boxScore = new JBoxScoreTableView();
+	static JOutput output = new JOutput(Color.WHITE);
+	static JStatsTableView stats = new JStatsTableView();
 	static JOptions options = new JOptions(Color.WHITE);
 
 	static int timeUsed = 0;
@@ -118,7 +118,7 @@ public class JGame extends GridPane
 	{
 		JLog.create();
 
-		double[] percentWidth = {80, 20};
+		double[] percentWidth = {60, 20, 20};
 		double[] percentHeight = {12,63,12,13};
 
 		for(int i=0; i<squibKick.length; i++)
@@ -148,11 +148,9 @@ public class JGame extends GridPane
 
 		add(scoreboard, 0, 0);
 		add(field, 0, 1);
-		add(jOutput, 0, 2);
+		add(output, 0, 2);
 		add(options, 0, 3);
-		add(boxScore, 1, 0, 1, 4);
-		//add(options, 0, 3, 2, 1);
-		//add(boxScore, 1, 0, 1, 3);
+		add(stats, 1, 0, 1, 4);
 
 		JDebug debug = new JDebug(this);
 		JOptions.debugText.textProperty().addListener((observable, oldValue, newValue) ->
@@ -163,8 +161,8 @@ public class JGame extends GridPane
 			}
 		});
 
-		JTeam home = new JTeam("C:\\Mike\\JFootball\\Teams\\CSV\\2012 Alabama.csv");
-		JTeam visitor = new JTeam("C:\\Mike\\JFootball\\Teams\\CSV\\2010 Auburn.csv");
+		JTeam home = new JTeam("C:\\Mike\\Football\\JFootball\\Teams\\CSV\\2012 Alabama.csv");
+		JTeam visitor = new JTeam("C:\\Mike\\Football\\JFootball\\Teams\\CSV\\2010 Auburn.csv");
 
 		data.teams[HOME] = home;
 		data.teams[VISITOR] = visitor;

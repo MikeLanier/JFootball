@@ -17,7 +17,7 @@ public class JPanel extends GridPane
 			public void changed(ObservableValue<? extends Number> observableValue, Number oldSceneWidth, Number newSceneWidth)
 			{
 				SetWidth(newSceneWidth.doubleValue());
-				//System.out.println("Width: " + newSceneWidth);
+				System.out.println("Width: " + newSceneWidth);
 			}
 		});
 
@@ -27,7 +27,7 @@ public class JPanel extends GridPane
 			public void changed(ObservableValue<? extends Number> observableValue, Number oldSceneHeight, Number newSceneHeight)
 			{
 				SetHeight(newSceneHeight.doubleValue());
-				//System.out.println("Height: " + newSceneHeight);
+				System.out.println("Height: " + newSceneHeight);
 			}
 		});
 
