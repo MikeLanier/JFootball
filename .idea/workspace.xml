@@ -2,12 +2,310 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18eab85b-83ce-437d-a5f3-802f7633dbd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/.vscode/launch.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Air_Force.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Akron.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Alabama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Arizona.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Arizona_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Arkansas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Arkansas_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Army.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Auburn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/BYU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Ball_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Baylor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Boise_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Boston_College.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Bowling_Green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Buffalo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/California.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Central_Florida.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Central_Michigan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Cincinnati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Clemson.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Colorado.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Colorado_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Connecticut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Duke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/East_Carolina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Eastern_Michigan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Florida.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Florida_Atlantic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Florida_International.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Florida_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Fresno_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Georgia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Georgia_Tech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Hawaii.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Houston.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Idaho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Illinois.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Indiana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Iowa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Iowa_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Kansas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Kansas_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Kent_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Kentucky2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/LSU.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Louisiana-Lafayette.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Louisiana-Monroe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Louisiana_Tech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Louisville.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Marshall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Maryland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Memphis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Miami_FL.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Miami_OH.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Michigan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Michigan_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Middle_Tennessee_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Minnesota.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Mississippi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Mississippi_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Missouri.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Navy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Nebraska.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Nevada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/New_Mexico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/New_Mexico_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/North_Carolina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/North_Carolina_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/North_Texas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Northern_Illinois.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Northwestern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Notre_Dame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Ohio.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Ohio_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Oklahoma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Oklahoma_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Oregon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Oregon_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Penn_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Pittsburgh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Purdue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Rice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Rutgers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/San_Diego_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/San_Jose_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/South_Carolina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/South_Florida.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Southern_California.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Southern_Methodist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Southern_Mississippi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Stanford.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Syracuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Temple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Tennessee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Texas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Texas_AM.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Texas_Christian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Texas_Tech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Toledo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Troy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Tulane.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/UAB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/UCLA.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/UNLV.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/UTEP.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Utah.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Utah_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Vanderbilt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Virginia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Virginia_Tech.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Wake_Forest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Washington.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Washington_St.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/West_Virginia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Western_Kentucky.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Western_Michigan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Wisconsin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Helmets/Wyoming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/JFootball.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/All.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/BCS.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1945 Army.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1947 Michigan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1951 Maryland.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1951 Tennessee.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1963 Navy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1966 Michigan State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1966 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1966 Notre Dame1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1967 Indiana.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1967 USC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1967 Wyoming.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1968 Kansas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 Michigan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 Missouri.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 Penn State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 San Diego State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 Texas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1969 Texas1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1970 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1970 Tennessee.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1971 Nebraska.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1972 USC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1973 Michigan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1973 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1973 Ohio State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1973 Penn State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1973 Texas Tech.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1974 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1975 Arizona State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1976 Maryland.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1976 Pittsburgh.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1977 Arkansas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1977 Kentucky.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1977 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1977 Texas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1978 Alabama.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1978 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1979 Alabama.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1979 Houston.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1979 USC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1980 Baylor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1980 Georgia.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1980 North Carolina.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1981 Clemson.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1981 Pittsburgh.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1982 SMU.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1983 Auburn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1983 Nebraska.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1984 Boston College.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1984 Brigham Young.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1984 South Carolina.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1984 Washington.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1985 Air Force.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1985 Iowa.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1986 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1986 Penn State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1987 Florida State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1987 LSU.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1987 Miami.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1987 Syracuse.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1988 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1988 Oklahoma State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1988 UCLA.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1988 West Virginia.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1989 Colorado.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1989 Houston.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1990 Georgia Tech.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1991 East Carolina.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1991 Miami.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1991 Washington.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1992 Alabama.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1993 Arizona.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1993 Auburn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1993 Wisconsin.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1994 Penn State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1995 Nebraska.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1995 Northwestern.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1996 Arizona State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1996 Army.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1996 Florida.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1996 Ohio State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1996 Tennessee.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1997 Michigan.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1997 North Carolina.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1998 Tennessee.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1998 UCLA.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1999 Florida State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/1999 Virginia Tech.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2000 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2000 Texas Christian.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2001 Miami.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2001 Oregon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2002 Miami.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2002 Ohio State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2002 Ohio State1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2003 LSU.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2003 Minnesota.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2003 Mississippi.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2004 Auburn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2004 Navy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2004 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2004 USC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2004 USC1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2005 Texas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2005 USC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2006 Army.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2006 Florida.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2006 Navy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2006 Ohio State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2007 LSU.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2007 Ohio State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2008 Florida.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2008 Florida1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2008 Oklahoma.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2008 Utah.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2009 Alabama.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2009 Army.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2009 Boise State.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2009 Navy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2009 Texas.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2010 Auburn.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2010 Oregon.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2012 Alabama.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/2012 Notre Dame.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Alabama 1978.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Arkansas 1977.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Kentucky 1977.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Maryland 1951.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Michigan 1947.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/CSV/Tennessee 1951.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/SEC.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Teams/Teams.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/out/production/JFootball/LOG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDebug.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDialogStage$JDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDialogStage$JDialogStageJString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDialogStage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDice.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JDrive.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JGame$Plays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JGameData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JOptions$Mode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JOptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JOptionsButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JOutput.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPanel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPenaltyDialog$JDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPenaltyDialog$JPenaltyDialogJString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPenaltyDialog$JPenaltyQuestionButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPenaltyDialog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPlayCaller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JPlayerOptionEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JResult$ActionModifiers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JResult$OtherModifiers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JResult$Who.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JResult$YardageModifiers.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JScoreboard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JSpot$Action.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JSpot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JStats.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JString$JText.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JString.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeamCard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeamTree$JTeamTreeGroup.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeamTree$JTeamTreeGroupNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeamTree$JTeamTreeTeam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/JTeamTree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/LOG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/src/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JField.java" afterPath="$PROJECT_DIR$/src/JField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JGame.java" afterPath="$PROJECT_DIR$/src/JGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JStatsTableView.java" afterPath="$PROJECT_DIR$/src/JStatsTableView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LOG.txt" afterPath="$PROJECT_DIR$/src/LOG.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,7 +451,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -197,7 +495,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,20 +646,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32664436" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23634337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20624304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20624304" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21137339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
