@@ -120,7 +120,9 @@ public class JGame extends GridPane
 		JLog.create();
 
 		double[] percentWidth = {60, 20, 20};
-		double[] percentHeight = {12,63,12,13};
+		double[] percentHeight = {12,53,22,13};
+//		double[] percentWidth = {80, 20};
+//		double[] percentHeight = {10,65,12,13};
 
 		for(int i=0; i<squibKick.length; i++)
 		{
